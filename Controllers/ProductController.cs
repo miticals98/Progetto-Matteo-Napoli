@@ -44,7 +44,7 @@ namespace Progetto_Matteo_Napoli.Controllers
                     return new Response()
                     {
                         Code = 404,
-                        Message = "User not found",
+                        Message = "Product not found",
                         Data = null
                     };
                 }
@@ -146,7 +146,7 @@ namespace Progetto_Matteo_Napoli.Controllers
                     return new Response()
                     {
                         Code = 404,
-                        Message = "User not found",
+                        Message = "Product not found",
                         Data = false
                     };
                 }
@@ -194,7 +194,7 @@ namespace Progetto_Matteo_Napoli.Controllers
                 {
                     Code = res ? 200 : 404,
                     Data = res,
-                    Message = res ? "OK" : "User not found"
+                    Message = res ? "OK" : "Product not found"
                 };
             }
             catch (Exception ex)
