@@ -1,0 +1,6 @@
+@Progetto_Matteo_Napoli_HostAddress = http://localhost:5269
+
+GET {{Progetto_Matteo_Napoli_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
